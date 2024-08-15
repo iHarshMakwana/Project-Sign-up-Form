@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(font/Norse-Bold.otf);
+  }
+  
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left{
+    background-image: url(images/bg.png);
+    width: 35vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: Norse-Bold;
+}
+
+
+.right{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.first{
+    height: 40vh;
+}
+.second{
+    height: 40vh;
+}
+.third{
+    height: 40vh;
+}
