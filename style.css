@@ -28,15 +28,32 @@ body{
 .right{
     display: flex;
     flex-direction: column;
+    background-color: #fafafa;
+    width: 65vw;
 
 }
 
 .first{
     height: 40vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 5%;
 }
 .second{
     height: 40vh;
+    background-color: white;
+
 }
 .third{
     height: 40vh;
+}
+
+.form-main-div{
+    display: flex;
+    flex-direction: row;
+}
+
+.form-div{
+    
 }
