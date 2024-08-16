@@ -10,7 +10,7 @@
 <body>
     <div class="main">
         <div class="left">
-            <h1>Hii</h1>
+            <h1></h1>
         </div>
 
         <div class="right">
@@ -23,8 +23,9 @@
                 </h2>
             </div>
             <div class="second">
-                <h3>Let's do this!</h3>
+                <h3 style="margin-left: 5%;">Let's do this!</h3>
                 <form action="" method="get" class="form-main-div">
+                    
                     <div class="form-divs">
                         <div class="form-div">
                             <label for="firstname">FIRST NAME</label>
@@ -36,7 +37,8 @@
                         </div>
                         <div class="form-div">
                             <label for="pass">PASSWORD</label>
-                            <input type="password" id="pass" name="pass">
+                            <input type="password" id="pass" name="pass" required>
+                            <p id="message"></p>
                         </div>
 
                     </div>
@@ -51,13 +53,16 @@
                         </div>
                         <div class="form-div">
                             <label for="confirmpass">CONFIRM PASSWORD</label>
-                            <input type="password" id="confirmpass" name="confirmpass">
+                            <input type="password" id="confirmpass" name="confirmpass" required>
                         </div>
                     </div>
                 </form>
 
             </div>
-            <div class="third">World</div>
+            <div class="third">
+                <button type="submit" class="btn">Create Account</button>
+                <p class="acc">Already Have an Account? <a href="">Login in</a></p>
+            </div>
         </div>
     </div>
 
